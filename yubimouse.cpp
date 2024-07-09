@@ -114,7 +114,7 @@ void sendInformation(char x, char y, bool left, bool right) {
 
   if (abs(x) > 0 || abs(y) > 0) {
     if (rightPressing) {
-      mouseScroll(-y / 30.);
+      mouseScroll(y / 30.);
       //Serial.println((int)now);
     } else {
       Mouse.move(x, y);
