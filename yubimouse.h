@@ -4,8 +4,8 @@
 #define ENCODER_DO_NOT_USE_INTERRUPTS
 #define SCLK 2                            // Serial clock pin on the Arduino
 #define SDIO 4                            // Serial data (I/O) pin on the Arduino
-#define LEFT 6
-#define RIGHT 7
+#define LEFT 5
+#define RIGHT 6
 
 void mouseSetup();
 void mouseScroll(double now);

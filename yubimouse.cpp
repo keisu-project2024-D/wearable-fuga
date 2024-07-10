@@ -6,8 +6,8 @@ ADNS2083 Optical1 = ADNS2083(SCLK, SDIO);
 void mouseSetup() {
   Optical1.begin();
   Optical1.config(0x00);
-  Mouse.begin();
-  Serial.begin(9600);
+  //Mouse.begin();
+  //Serial.begin(9600);
 
   pinMode(LEFT, INPUT_PULLUP);
   pinMode(RIGHT, INPUT_PULLUP);
